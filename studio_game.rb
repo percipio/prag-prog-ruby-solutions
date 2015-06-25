@@ -1,21 +1,48 @@
+# set the time and print it
+current_time = Time.new
+puts "The game started on #{current_time.strftime("%A %m/%d/%Y at %I:%M%p")}"
+
+# assign names to the players
 name1 = "larry"
 name2 = "curly"
 name3 = "moe"
+name4 = "shemp"
 
-health1 = 60
-puts "#{name1}'s health is #{health1}"
+# assign health values to the players
+name1_health = 60
+name2_health = 125
+name3_health = 100
+name4_health = 90
 
-# triple larry's health.
-puts "#{name1}'s health has tripled to #{health1 * 3}"
+# print out name1's stats
+puts "#{name1.capitalize}'s health is #{name1_health}"
 
-# divide larry's health by nine (as a float).
-puts "#{name1}'s health, divided by nine: #{health1 / 9.0}"
-
-# divide larry's health by nine (as an integer).
-puts "#{name1}'s health, divided by nine: #{health1 / 9}"
-
-# print out a list of players.
-puts "\nPlayers:\n \tlarry\n \tcurly\n \tmoe"
+# print out name2's stats
+puts "#{name2.capitalize}'s health is #{name2_health}"
 
 # now use variables for each player name.
-puts "\nPlayers: (from vars)\n \t#{name1}\n \t#{name2}\n \t#{name3}"
+puts "\nPlayers:\n \t#{name1}\n \t#{name2}\n \t#{name3}"
+
+# assign name2's health the value of name1's health
+name2_health = name1_health
+
+# print out name2's health again.
+puts "#{name2.capitalize}'s health is #{name2_health}"
+
+# change name1's health
+name1_health = 30
+
+# print out name1's stats again
+puts "#{name1.capitalize}'s health is #{name1_health}"
+
+# print out name2's stats again
+puts "#{name2.capitalize}'s health is #{name2_health}"
+
+# print out name3's stats
+puts "#{name3.capitalize}'s health is #{name3_health}".center(30, '*')
+
+# print out name2's stats
+puts "#{name4.capitalize.ljust(20, '.')} #{name4_health} health"
+
+# revers the number 123
+puts "Number 123 reversed: #{123.to_s.reverse.to_i}"
