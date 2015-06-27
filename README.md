@@ -1,5 +1,5 @@
-# prag-prog-ruby-solutions
-My solutions to the pragmatic programming ruby course.
+# Pragmatic Studio Ruby Course Solutions
+My solutions to the [Pragmatic Studio](https://pragmaticstudio.com/ruby) ruby course.
 
 Each lesson will be a branch as I follow the course outline. Not all lessons have exercises.
 
