@@ -12,3 +12,5 @@ Exercise 4 - [Variables and Objects](https://github.com/percipio/prag-prog-ruby-
 Exercise 6 - [Methods](https://github.com/percipio/prag-prog-ruby-solutions/tree/Numbers_and_Strings)
 
 Exercise 7 - [Classes](https://github.com/percipio/prag-prog-ruby-solutions/tree/Classes)
+
+Exercise 7 Bonus - [Calculator](https://github.com/percipio/prag-prog-ruby-solutions/tree/Bonus_Calculator)
