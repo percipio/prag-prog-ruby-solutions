@@ -16,3 +16,5 @@ Exercise 7 - [Classes](https://github.com/percipio/prag-prog-ruby-solutions/tree
 Exercise 7 Bonus - [Calculator](https://github.com/percipio/prag-prog-ruby-solutions/tree/Bonus_Calculator/calculator.rb)
 
 Exercise 8 - [Attributes](https://github.com/percipio/prag-prog-ruby-solutions/tree/Attributes)
+
+Exercise 9 - [Arrays](https://github.com/percipio/prag-prog-ruby-solutions/tree/Arrays)
