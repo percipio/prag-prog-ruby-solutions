@@ -5,12 +5,16 @@ Each lesson will be a branch as I follow the course outline. Not all lessons hav
 
 Solutions:
 
-Exercise 3 - [Numbers and Strings](https://github.com/percipio/prag-prog-ruby-solutions/tree/Numbers_and_Strings/studio_game.rb)
+Exercise 3 - [Numbers and Strings](https://github.com/percipio/prag-prog-ruby-solutions/tree/Numbers_and_Strings)
 
-Exercise 4 - [Variables and Objects](https://github.com/percipio/prag-prog-ruby-solutions/tree/Variables_and_Objects/studio_game.rb)
+Exercise 4 - [Variables and Objects](https://github.com/percipio/prag-prog-ruby-solutions/tree/Variables_and_Objects)
 
-Exercise 6 - [Methods](https://github.com/percipio/prag-prog-ruby-solutions/tree/Methods/studio_game.rb)
+Exercise 6 - [Methods](https://github.com/percipio/prag-prog-ruby-solutions/tree/Methods)
 
-Exercise 7 - [Classes](https://github.com/percipio/prag-prog-ruby-solutions/tree/Classes/studio_game.rb)
+Exercise 7 - [Classes](https://github.com/percipio/prag-prog-ruby-solutions/tree/Classes)
 
 Exercise 7 Bonus - [Calculator](https://github.com/percipio/prag-prog-ruby-solutions/tree/Bonus_Calculator/calculator.rb)
+
+Exercise 8 - [Attributes](https://github.com/percipio/prag-prog-ruby-solutions/tree/Attributes)
+
+Exercise 9 - [Arrays](https://github.com/percipio/prag-prog-ruby-solutions/tree/Arrays)
