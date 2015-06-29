@@ -20,3 +20,5 @@ Exercise 8 - [Attributes](https://github.com/percipio/prag-prog-ruby-solutions/t
 Exercise 9 - [Arrays](https://github.com/percipio/prag-prog-ruby-solutions/tree/Arrays)
 
 Exercise 10 - [Objects Interacting](https://github.com/percipio/prag-prog-ruby-solutions/tree/Objects_Interacting)
+
+Exercise 11 - [Separate Source Files](https://github.com/percipio/prag-prog-ruby-solutions/tree/Separate_Source_Files)
