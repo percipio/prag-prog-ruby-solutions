@@ -18,3 +18,5 @@ Exercise 7 Bonus - [Calculator](https://github.com/percipio/prag-prog-ruby-solut
 Exercise 8 - [Attributes](https://github.com/percipio/prag-prog-ruby-solutions/tree/Attributes)
 
 Exercise 9 - [Arrays](https://github.com/percipio/prag-prog-ruby-solutions/tree/Arrays)
+
+Exercise 10 - [Objects Interacting](https://github.com/percipio/prag-prog-ruby-solutions/tree/Objects_Interacting)
