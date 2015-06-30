@@ -12,7 +12,7 @@ describe Player do
   it "has a capitalized name" do
     expect(@player.name).to eq("Larry")
   end
-  # test the initial health
+
   it "has an initial health" do
     expect(@player.health).to eq(150)
   end
