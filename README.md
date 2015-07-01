@@ -24,3 +24,5 @@ Exercise 10 - [Objects Interacting](https://github.com/percipio/prag-prog-ruby-s
 Exercise 11 - [Separate Source Files](https://github.com/percipio/prag-prog-ruby-solutions/tree/Separate_Source_Files)
 
 Exercise 12 - [Unit Testing](https://github.com/percipio/prag-prog-ruby-solutions/tree/Unit_Testing)
+
+Exercise 13 - [Conditional and TDD](https://github.com/percipio/prag-prog-ruby-solutions/tree/Conditionals_and_TDD)
