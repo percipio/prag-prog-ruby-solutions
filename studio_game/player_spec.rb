@@ -41,8 +41,20 @@ describe Player do
     end
 
     it "is strong" do
-      @player.strong?.should be_truthy
+      expect(@player).to be_strong
     end
+
+  end
+
+  context "with a health less than 100" do
+    before do
+      @player = Player.new("larry", 99)
+    end
+
+    it "is wimpy" do
+      expect(@player).to_not be_strong
+    end
+
   end
 
 end
