@@ -1,4 +1,5 @@
 require_relative "project"
+require_relative "die"
 
 class Portfolio
   attr_reader :name
@@ -23,9 +24,16 @@ class Portfolio
     puts "\n"
 
     @projects.each do |project|
-      project.add_funds(75)
-      project.add_funds(10)
-      project.remove_funds(35)
+      die = Die.new
+      rolled_number = die.roll
+      case die.roll
+        when 1..2
+          project.remove_funds(10)
+        when 3..4
+          puts "#{project.name} didn't get funding."
+        else
+          project.add_funds(75)
+      end
       puts project
       puts "\n"
     end
