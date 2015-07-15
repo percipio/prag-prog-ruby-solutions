@@ -28,3 +28,5 @@ Exercise 12 - [Unit Testing](https://github.com/percipio/prag-prog-ruby-solution
 Exercise 13 - [Conditional and TDD](https://github.com/percipio/prag-prog-ruby-solutions/tree/Conditionals_and_TDD)
 
 Exercise 14 - [Modules](https://github.com/percipio/prag-prog-ruby-solutions/tree/Modules)
+
+Exercise 15 - [Blocks](https://github.com/percipio/prag-prog-ruby-solutions/tree/Blocks)
