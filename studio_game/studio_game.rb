@@ -12,7 +12,7 @@ knuckleheads.add_player(player1)
 knuckleheads.add_player(player2)
 knuckleheads.add_player(player3)
 # Play the game already!
-knuckleheads.play
+knuckleheads.play(2)
 
 # Instantiate 3 players
 player1 = Player.new("alvin", 120)
@@ -27,4 +27,4 @@ chipmunks.add_player(player1)
 chipmunks.add_player(player2)
 chipmunks.add_player(player3)
 # Play the new game
-chipmunks.play
+chipmunks.play(2)
