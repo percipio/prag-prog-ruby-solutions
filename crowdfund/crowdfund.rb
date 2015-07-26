@@ -12,4 +12,4 @@ awesome_fund.add_project(project1)
 awesome_fund.add_project(project2)
 awesome_fund.add_project(project3)
 # Show the portfolio
-awesome_fund.show_projects
+awesome_fund.show_projects(2)

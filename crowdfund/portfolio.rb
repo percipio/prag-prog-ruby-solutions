@@ -13,7 +13,8 @@ class Portfolio
     @projects << project
   end
 
-  def show_projects
+  def show_projects(rounds)
+    
     puts "There are #{@projects.size} projects in the #{@name} portfolio."
     puts "\nProjects in #{@name}:"
 
@@ -23,12 +24,13 @@ class Portfolio
 
     puts "\n"
 
-    @projects.each do |project|
-      FundingRound.transaction(project)
-      puts project
-      puts "\n"
+    1.upto(rounds) do |round|
+      puts "Round #{round}"
+      @projects.each do |project|
+        FundingRound.transaction(project)
+        puts project
+        puts "\n"
+      end
     end
-
   end
-
 end
