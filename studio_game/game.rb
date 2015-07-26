@@ -9,8 +9,38 @@ class Game
     @players = []
   end
 
+  def print_name_and_health(player)
+    puts "#{player.name} (#{player.health})"
+  end
+
   def add_player(player)
     @players << player
+  end
+
+  def health_stats
+
+    strong_players, weak_players = @players.partition { |p| p.strong? }
+
+    puts "#{strong_players.size} strong players:"
+    strong_players.each do |player|
+      print_name_and_health(player)
+    end
+
+    puts "#{weak_players.size} weak players:"
+    weak_players.each do |player|
+      print_name_and_health(player)
+    end
+  end
+
+  def game_stats
+    puts "\n#{@title} High Scores:"
+
+    sorted_players = @players.sort { |a, b| b.score <=> a.score }
+
+    sorted_players.each do |player|
+      formatted_name = player.name.ljust(20, '.')
+      puts "#{formatted_name} #{player.score}"
+    end
   end
 
   def play(rounds)
@@ -32,5 +62,6 @@ class Game
         puts "\n"
       end
     end
+
   end
 end

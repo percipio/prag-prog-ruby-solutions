@@ -13,6 +13,8 @@ knuckleheads.add_player(player2)
 knuckleheads.add_player(player3)
 # Play the game already!
 knuckleheads.play(2)
+knuckleheads.health_stats
+knuckleheads.game_stats
 
 # Instantiate 3 players
 player1 = Player.new("alvin", 120)
@@ -28,3 +30,4 @@ chipmunks.add_player(player2)
 chipmunks.add_player(player3)
 # Play the new game
 chipmunks.play(2)
+knuckleheads.game_stats
