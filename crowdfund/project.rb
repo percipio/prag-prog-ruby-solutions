@@ -12,6 +12,10 @@ class Project
     @funding_goal - @funding
   end
 
+  def lots_o_money?
+    @funding > @funding_goal *= 0.6
+  end
+
   def to_s
     "#{@name} has $#{@funding} towards a goal of $#{@funding_goal}"
   end

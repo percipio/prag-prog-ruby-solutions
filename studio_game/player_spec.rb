@@ -67,7 +67,7 @@ describe Player do
     end
 
     it "is sorted by decreasing score" do
-      expect(@players).to contain_exactly(@player3, @player2, @player1)
+      expect(@players).to contain_exactly(@player1, @player2, @player3)
     end
   end
 end

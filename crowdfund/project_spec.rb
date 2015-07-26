@@ -40,4 +40,18 @@ describe Project do
     expect(@project.funds_needed).to eq(@funding_goal - (@initial_funding - 100))
   end
 
+  context "in a collection of projects" do
+    before do
+      @project1 = Project.new("Project 1", 1200, 2500)
+      @project2 = Project.new("Project 2", 220, 1000)
+      @project3 = Project.new("Project 3", 500, 1500)
+
+      @projects = [@project1, @project2, @project3]
+    end
+
+    it "is sorted by decreasing funding" do
+      expect(@projects).to contain_exactly(@project1, @project2, @project3)
+    end
+  end
+
 end

@@ -30,4 +30,5 @@ chipmunks.add_player(player2)
 chipmunks.add_player(player3)
 # Play the new game
 chipmunks.play(2)
+knuckleheads.health_stats
 knuckleheads.game_stats
