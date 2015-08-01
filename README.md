@@ -30,3 +30,5 @@ Exercise 13 - [Conditional and TDD](https://github.com/percipio/prag-prog-ruby-s
 Exercise 14 - [Modules](https://github.com/percipio/prag-prog-ruby-solutions/tree/Modules)
 
 Exercise 15 - [Blocks](https://github.com/percipio/prag-prog-ruby-solutions/tree/Blocks)
+
+Exercise 16 - [Structs and Symbols](https://github.com/percipio/prag-prog-ruby-solutions/tree/Symbols_and_Structs)
