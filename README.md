@@ -27,8 +27,12 @@ Exercise 12 - [Unit Testing](https://github.com/percipio/prag-prog-ruby-solution
 
 Exercise 13 - [Conditional and TDD](https://github.com/percipio/prag-prog-ruby-solutions/tree/Conditionals_and_TDD)
 
+Exercise 13 Bonus - [Conditional and TDD Bonus](https://github.com/percipio/prag-prog-ruby-solutions/tree/Conditionals_and_TDD_bonus)
+
 Exercise 14 - [Modules](https://github.com/percipio/prag-prog-ruby-solutions/tree/Modules)
 
 Exercise 15 - [Blocks](https://github.com/percipio/prag-prog-ruby-solutions/tree/Blocks)
 
 Exercise 16 - [Structs and Symbols](https://github.com/percipio/prag-prog-ruby-solutions/tree/Symbols_and_Structs)
+
+Exercise 16 Bonus - [Structs and Symbols](https://github.com/percipio/prag-prog-ruby-solutions/tree/Symbols_and_Structs)
