@@ -36,3 +36,5 @@ Exercise 15 - [Blocks](https://github.com/percipio/prag-prog-ruby-solutions/tree
 Exercise 16 - [Structs and Symbols](https://github.com/percipio/prag-prog-ruby-solutions/tree/Symbols_and_Structs)
 
 Exercise 16 Bonus - [Structs and Symbols Bonus](https://github.com/percipio/prag-prog-ruby-solutions/tree/Symbols_and_Structs_bonus)
+
+Exercise 17 - [Hashes](https://github.com/percipio/prag-prog-ruby-solutions/tree/Hashes)
