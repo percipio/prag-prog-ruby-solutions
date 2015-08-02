@@ -1,5 +1,6 @@
 require_relative "project"
 require_relative "funding_round"
+require_relative "funding_levels"
 
 class Portfolio
   attr_reader :name
@@ -39,7 +40,7 @@ class Portfolio
 
     sorted_projects.each do |project|
       formatted_name = project.name.ljust(20, '.')
-      puts "#{formatted_name} #{project.score}"
+      puts "#{formatted_name} #{project.funding}"
     end
   end
 
@@ -62,5 +63,13 @@ class Portfolio
         puts "\n"
       end
     end
+
+    levels = FundingLevels::LEVELS
+    puts "There are #{levels.count} funding levels."
+    levels.each do |l|
+      puts "The #{l.name.capitalize} level is worth $#{l.value}."
+    end
+    puts "\n"
+
   end
 end

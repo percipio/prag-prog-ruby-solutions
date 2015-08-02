@@ -1,5 +1,6 @@
 require_relative 'project'
 require_relative 'die'
+require_relative 'funding_levels'
 
 module FundingRound
   def self.transaction(project)
@@ -12,5 +13,7 @@ module FundingRound
       else
         project.add_funds(75)
     end
+    level = FundingLevels.random
+    puts "#{project.name} got #{level.name} funding in the amount o $#{level.value}."
   end
 end
